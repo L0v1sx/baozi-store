@@ -21,7 +21,7 @@ Trabalho prático da disciplina de **Desenvolvimento Web Back-End** para o desen
 
 A **Baozi Store** é uma pequena loja local que vende pão chinês. Para informatizar o controlo básico de clientes, produtos e pedidos, a API gere as seguintes entidades e relações:
 
-* **Cliente:** Registo do cliente com nome (incluindo identificação e RU) e data de cadastro (`clienteDesde`).
+* **Cliente:** Registo do cliente com nome e data de cadastro (`clienteDesde`).
 * **Produto:** Gestão do pão chinês vendido por unidade (nome, preço e controlo de estoque/quantidade).
 * **Pedido:** Registo que vincula um cliente a um produto comprado em determinada quantidade (`clienteId`, `produtoId`, `quantidade`).
 
